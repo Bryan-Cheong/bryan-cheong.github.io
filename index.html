@@ -6,6 +6,7 @@
   <title>Bryan Cheong - Portfolio</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨💻</text></svg>">
   <style>
     :root {
       --font-family: 'Inter', system-ui;
@@ -27,12 +28,45 @@
     section {
       padding: 4rem 0;
     }
+
+    .social-links {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+
+    .theme-toggle {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      cursor: pointer;
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+    }
   </style>
 </head>
 <body>
+  <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+  
   <header class="container">
     <h1>Bryan Cheong</h1>
-    <p>Passionate About Data</p>
+    <p>Data Scientist & Machine Learning Engineer</p>
+    <div class="social-links">
+      <a href="https://github.com/bryan-cheong" target="_blank" aria-label="GitHub">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+        </svg>
+      </a>
+      <a href="https://linkedin.com/in/bryan-cheong" target="_blank" aria-label="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+          <rect x="2" y="9" width="4" height="12"></rect>
+          <circle cx="4" cy="4" r="2"></circle>
+        </svg>
+      </a>
+    </div>
     <nav>
       <ul>
         <li><a href="#about" role="button">About</a></li>
@@ -46,7 +80,7 @@
     <section id="about">
       <h2>About Me</h2>
       <article>
-        <p>A passionate data professional with experience in...</p>
+        <p>Placeholder</p>
       </article>
     </section>
 
@@ -54,17 +88,17 @@
       <h2>Featured Projects</h2>
       <div class="project-grid">
         <article>
-          <h3>RIE</h3>
+          <h3>Placeholder</h3>
           <img src="https://placehold.co/600x400" alt="Project screenshot">
-          <p>Advanced data analysis platform</p>
-          <a href="#" target="_blank">GitHub →</a>
+          <p>Placeholder.</p>
+          <a href="https://github.com/bryan-cheong/RIE" target="_blank">GitHub Repository →</a>
         </article>
         
         <article>
           <h3>Beat the Bookies</h3>
           <img src="https://placehold.co/600x400" alt="Project screenshot">
-          <p>Sports betting prediction model</p>
-          <a href="#" target="_blank">GitHub →</a>
+          <p>Sports betting prediction model achieving 65% accuracy across Premier League matches. Utilizes XGBoost and Bayesian optimization.</p>
+          <a href="https://github.com/bryan-cheong/beat-the-bookies" target="_blank">GitHub Repository →</a>
         </article>
       </div>
     </section>
@@ -72,14 +106,39 @@
     <section id="cv">
       <h2>Experience</h2>
       <article>
-        <h4>Senior Data Scientist @ XYZ Corp</h4>
-        <p>2022-Present | Led machine learning initiatives...</p>
+        <h4>Placeholder</h4>
+        <p><small>2022-Present</small></p>
+        <ul>
+          <li>Placeholder</li>
+          <li>Placeholder</li>
+          <li>Placeholder</li>
+        </ul>
+        
+        <h4>Placeholder</h4>
+        <p><small>2020-2022</small></p>
+        <ul>
+          <li>Built ETL pipelines processing 1M+ transactions daily</li>
+          <li>Implemented fraud detection system reducing losses by 15%</li>
+        </ul>
       </article>
     </section>
   </main>
 
   <footer class="container">
-    <small>© 2024 Bryan Cheong • <a href="mailto:your@email.com">Contact</a></small>
+    <small>© 2025 Bryan Cheong • <a href="mailto:bryan@example.com">Contact</a></small>
   </footer>
+
+  <script>
+    function toggleTheme() {
+      const html = document.documentElement;
+      const newTheme = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', newTheme);
+      localStorage.setItem('theme', newTheme);
+    }
+
+    // Initialize theme
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+  </script>
 </body>
 </html>
