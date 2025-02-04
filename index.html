@@ -2,66 +2,84 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bryan Cheong - Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --font-family: 'Inter', system-ui;
+      --primary: #2563eb;
+    }
+    
+    .project-grid {
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    
+    header {
+      padding: 4rem 0;
+      text-align: center;
+      background: linear-gradient(45deg, #f3f4f6, #fff);
+    }
+    
+    section {
+      padding: 4rem 0;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>Bryan Cheong</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#cv">CV</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+  <header class="container">
+    <h1>Bryan Cheong</h1>
+    <p>Passionate About Data</p>
+    <nav>
+      <ul>
+        <li><a href="#about" role="button">About</a></li>
+        <li><a href="#projects" role="button" class="secondary">Projects</a></li>
+        <li><a href="#cv" role="button" class="contrast">CV</a></li>
+      </ul>
+    </nav>
   </header>
 
-<main>
+  <main class="container">
     <section id="about">
-      <div class="container">
-        <h2>About Me</h2>
-        <p>My name is Bryan ... #TODO</p>
+      <h2>About Me</h2>
+      <article>
+        <p>A passionate data professional with experience in...</p>
+      </article>
+    </section>
+
+    <section id="projects">
+      <h2>Featured Projects</h2>
+      <div class="project-grid">
+        <article>
+          <h3>RIE</h3>
+          <img src="https://placehold.co/600x400" alt="Project screenshot">
+          <p>Advanced data analysis platform</p>
+          <a href="#" target="_blank">GitHub →</a>
+        </article>
+        
+        <article>
+          <h3>Beat the Bookies</h3>
+          <img src="https://placehold.co/600x400" alt="Project screenshot">
+          <p>Sports betting prediction model</p>
+          <a href="#" target="_blank">GitHub →</a>
+        </article>
       </div>
     </section>
 
     <section id="cv">
-      <div class="container">
-        <h2>CV</h2>
-        <p>CV content.</p>
-        <p>For a more detailed version, please reach out to me by contacting me.</p>
-      </div>
+      <h2>Experience</h2>
+      <article>
+        <h4>Senior Data Scientist @ XYZ Corp</h4>
+        <p>2022-Present | Led machine learning initiatives...</p>
+      </article>
     </section>
-  
-    <section id="projects">
-      <div class="container">
-        <h2>Projects</h2>
-        <div class="project-list">
-          <!-- Project 1 -->
-          <div class="project-card">
-            <img src="project1.jpg" alt="Screenshot of Project 1">
-            <h3>RIE</h3>
-            <p>A short description of the project.</p>
-            <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
-          </div>
-          <!-- Project 2 -->
-          <div class="project-card">
-            <img src="project2.jpg" alt="Screenshot of Project 2">
-            <h3>Beat the Bookies</h3>
-            <p>A short description of the project.</p>
-            <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
-          </div>
-        </div>
-      </div>
-    </section>
-  
-  <footer>
-    <p>&copy; 2025 Your Name</p>
+  </main>
+
+  <footer class="container">
+    <small>© 2024 Bryan Cheong • <a href="mailto:your@email.com">Contact</a></small>
   </footer>
 </body>
 </html>
