@@ -2,8 +2,3 @@ title: Bryan Cheong
 # logo:
 # description: paragraph below image
 theme: jekyll-theme-minimal
-
-# Include custom CSS and JS
-include:
-  - assets/css/style.css
-  - assets/js/script.js
