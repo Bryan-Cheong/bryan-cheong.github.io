@@ -1,9 +1,9 @@
-# Data Analytics, Software Engineering, Consulting
+# Technology
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://linkedin.com/in/bryancwx)
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/Bryan-Cheong)
 
-📧 wei.cheong24@imperial.ac.uk  
+📧 [wei.cheong24@imperial.ac.uk](mailto:wei.cheong24@imperial.ac.uk)
 📍 London, UK  
 
 ---
