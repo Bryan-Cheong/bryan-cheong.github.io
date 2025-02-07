@@ -45,7 +45,7 @@ Outside of work and academics, I stay active with bouldering, basketball, athlet
 - Built a **Premier League match classifier** with **51% validation & ~40% test accuracy**, training on **5 recent seasons**.  
 - Engineered **matchup-specific Pi-ratings** & tuned hyperparameters via **grid searches**.  
 - Applied **SHAP summary plots** for feature selection and tested sentiment analysis with an **LLM & Nitter API**.
-- [View report](assets/beat-the-bookies.pdf)
+- [View report](assets/beat-the-bookie.pdf)
 
 ### **Noise Reduction in Lagged Covariance Matrices** *(Grade: 72%)*  
 - Developed an **RIE-based algorithm** to clean **high-dimensional lagged covariance matrices**
