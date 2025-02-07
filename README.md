@@ -9,6 +9,7 @@ Outside of work and academics, I stay active with bouldering, basketball, athlet
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/Bryan-Cheong)
 
 📧 [wei.cheong24@imperial.ac.uk](mailto:wei.cheong24@imperial.ac.uk)
+
 📍 London, UK  
 
 ---
@@ -72,5 +73,7 @@ Outside of work and academics, I stay active with bouldering, basketball, athlet
 ## 📬 Get in Touch  
 
 📧 **Email:** [wei.cheong24@imperial.ac.uk](mailto:wei.cheong24@imperial.ac.uk)
+
 🔗 **LinkedIn:** [linkedin.com/in/bryancwx](https://linkedin.com/in/bryancwx)
+
 💻 **GitHub:** [github.com/Bryan-Cheong](https://github.com/Bryan-Cheong)
