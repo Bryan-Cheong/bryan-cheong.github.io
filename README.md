@@ -5,11 +5,6 @@ My natural curiosity pushes me to explore new ideas in any setting, whether in a
 
 Outside of work and academics, I stay active with bouldering, basketball, athletics, and culinary adventures in the kitchen.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://linkedin.com/in/bryancwx)
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/Bryan-Cheong)
-
-📧 [wei.cheong24@imperial.ac.uk](mailto:wei.cheong24@imperial.ac.uk)
-
 📍 London, UK  
 
 ---
@@ -30,7 +25,7 @@ Outside of work and academics, I stay active with bouldering, basketball, athlet
 **Quantitative Analytics Platform Intern** | *Jul 2023 - Sep 2023*
 
 ### **General System Engineering** – *Shah Alam, Malaysia*
-**Enterprise Resource Planning (ERP) Consultant Intern** | *May 2023 - Jul 2023*
+**Enterprise Resource Planning (ERP) Intern** | *May 2023 - Jul 2023*
 
 ### **British Red Cross** – *London, UK*  
 **Business Intelligence Lead** | *Sep 2022 - Apr 2023*
