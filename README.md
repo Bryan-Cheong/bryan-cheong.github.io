@@ -1,7 +1,7 @@
 # About Me
-Hello! I'm a computer science graduate from UCL, where three years of immersive learning and hands-on problem-solving ignited my passion for technology. I then spent a year at Imperial studying Business Analytics, which sharpened my analytical skills and showed me how data can drive smart business decisions. My journey in data analytics—whether I’m crafting visual data narratives or building multifaceted machine learning models—has taken me through four diverse industries, each offering unique insights into how technology can enhance everyday lives. I thrive on creating systems that are not only innovative but also accessible to many, and I bring clear communication, creative problem-solving, and a commitment to continuous learning to every project.
+Hello! I'm a computer science graduate from UCL, where three years of immersive learning and hands-on problem-solving ignited my passion for technology. I then spent a year at Imperial studying Business Analytics, which sharpened my analytical skills and showed me how data can drive smart business decisions.
 
-My natural curiosity pushes me to explore new ideas in any setting, whether in an office, on a factory floor, or in a classroom. I believe that asking the right questions is key to growth, and my adaptability has helped me succeed across various environments. I also love collaborating in teams, as it not only boosts efficiency but also enriches my perspective through diverse cultural insights.
+My journey in data analytics—whether I’m crafting visual data narratives or building multifaceted machine learning models—has taken me through four diverse industries, each offering unique insights into how technology can enhance everyday lives. I thrive on creating systems that are not only innovative but also accessible to many, and I bring clear communication, creative problem-solving, and a commitment to continuous learning to every project. My natural curiosity pushes me to explore new ideas in any setting, whether in an office, on a factory floor, or in a classroom. I believe that asking the right questions is key to growth, and my adaptability has helped me succeed across various environments. I also love collaborating in teams, as it not only boosts efficiency but also enriches my perspective through diverse cultural insights.
 
 Outside of work and academics, I stay active with bouldering, basketball, athletics, and culinary adventures in the kitchen.
 
@@ -38,22 +38,22 @@ Outside of work and academics, I stay active with bouldering, basketball, athlet
 ## 📊 Projects
 
 ### **Beat The Bookies**
-- Built a **Premier League match classifier** with **51% validation & ~40% test accuracy**, training on **5 recent seasons**.  
-- Engineered **matchup-specific Pi-ratings** & tuned hyperparameters via **grid searches**.  
-- Applied **SHAP summary plots** for feature selection and tested sentiment analysis with an **LLM & Nitter API**.
-- [View report](assets/beat-the-bookie.pdf)
+- Built a Catboost Premier League match classifier with 51% validation & ~40% test accuracy, training on 5 recent seasons.
+- Engineered matchup-specific Pi-ratings & tuned hyperparameters via k-fold cross-validation and grid searches.
+- Applied SHAP summary plots for feature selection and tested sentiment analysis on injury reports and public opinion with an LLM & Nitter API.
+- [📄 View report](assets/beat-the-bookie.pdf)
 
 ### **Noise Reduction in Lagged Covariance Matrices** *(Grade: 72%)*  
-- Developed an **RIE-based algorithm** to clean **high-dimensional lagged covariance matrices**
+- Developed a novel RIE-based algorithm to clean high-dimensional lagged covariance matrices.
 - Improved signal-to-noise ratio **by 100%** in AR(0) and **by 20%** in AR(1) models.
-- [View thesis](assets/rie.pdf)
+- [📄 View thesis](assets/rie.pdf)
 
 ### **Public Perception on Benefit Fraud**  
-- Analyzed **2019 British Social Survey** data using **t-tests & linear regression** in **R**.  
-- Found public fraud estimates (**34.6%**) far exceeded the government's (**1.1%**), influenced by **political affiliation & education**.
+- Analyzed 2019 British Social Survey data using t-tests & linear regression in R.  
+- Found public fraud estimates (34.6%) far exceeded the government's (1.1%), influenced by political affiliation & education.
 
 ### **TetrisAI**  
-- Built a **heuristics-based Tetris AI** scoring **28,000+ points using 400 blocks**, ranking **80th percentile in UCL's cohort**.  
+- Built a heuristics-based Tetris AI scoring 28,000+ points using 400 blocks, ranking 80th percentile in UCL's cohort.  
 
 ---
 
