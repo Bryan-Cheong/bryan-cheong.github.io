@@ -45,7 +45,7 @@ Outside of work and academics, I stay active with bouldering, basketball, athlet
 
 ### **Noise Reduction in Lagged Covariance Matrices** *(Grade: 72%)*  
 - Developed a novel RIE-based algorithm to clean high-dimensional lagged covariance matrices.
-- Improved signal-to-noise ratio **by 100%** in AR(0) and **by 20%** in AR(1) models.
+- Improved signal-to-noise ratio by 100% in AR(0) and by 20% in AR(1) models.
 - [📄 View thesis](assets/rie.pdf)
 
 ### **Public Perception on Benefit Fraud**  
